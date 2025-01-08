@@ -617,9 +617,9 @@ const mainPage = `
       </ul>
         <form id="urlForm" onsubmit="redirectToProxy(event)">
             <fieldset>
-                <legend>Proxy Everything</legend>
-                <label for="targetUrl">TargetUrl: <input type="text" id="targetUrl" placeholder="Enter the target URL here..."></label>
-                <button type="submit" id="jumpButton">Jump!</button>
+                <legend>代理一切</legend>
+                <label for="目标网址">TargetUrl: <input type="text" id="targetUrl" placeholder="输入您要访问的网站..."></label>
+                <button type="submit" id="jumpButton">GO!</button>
             </fieldset>
         </form>
         <script>
@@ -636,26 +636,6 @@ const mainPage = `
        <li>如果您的学校屏蔽了该网站: <br>请通过<a href="mailto:help@lhyang.org">help@lhyang.org</a>, 与我联系，我将设置一个新的网页。</li>
         <li>限制:<br>尽管我尽力使每个网站均可代理, 但仍然可能有页面或资源无法加载, <span class="important">最重要的是您绝不应该通过在线代理登录任何帐户</span>.</li>
       </ul>
-
-    <h3>
-        <br>
-        <span>Proxies that can bypass the school network blockade:</span>
-        <br><br>
-        <span>Traditional VPNs such as <a href="https://hide.me/">hide me</a>.</span>
-        <br><br>
-        <a href="https://www.torproject.org/">Tor Browser</a><span>, short for The Onion Router, is free and open-source software for enabling anonymous communication. It directs Internet traffic via a free, worldwide volunteer overlay network that consists of more than seven thousand relays. Using Tor makes it more difficult to trace a user's Internet activity.</span>
-        <br><br>
-        <a href="https://v2rayn.org/">v2RayN</a><span> is a GUI client for Windows, support Xray core and v2fly core and others. You must subscribe to an <a href = "https://aijichang.org/6190/">airport</a> to use it. For example, you can subscribe <a href="https://feiniaoyun.xyz/">fly bird cloud</a>.</span>
-        <br><br>
-        <span>Bypass <del>Goguardian</del> by proxy: You can buy a domain($1) and setup by yourself: </span><a href="https://github.com/gaboolic/cloudflare-reverse-proxy">how to setup a proxy</a><span>. Unless <del>Goguardian</del> use white list mode, this can always work.</span>
-        <br>
-        <span>Too expensive? Never mind! There are a lot of free domains registration companies (for the first year of the domain) that do not need any credit card, search online!</span>
-        <br><br>
-        <span>Youtube video unblock: "Thanks" for Russia that they started to invade Ukraine and Google blocked the traffic from Russia, there are a LOT of mirror sites working. You can even <a href="https://github.com/iv-org/invidious">setup</a> one by yourself.</span>
-    </h3>
-    <a href="https://goguardian.com" style="visibility:hidden"></a>
-    <a href="https://blocked.goguardian.com/" style="visibility:hidden"></a>
-    <a href="https://www.google.com/gen_204" style="visibility:hidden"></a>
     <p style="font-size:280px !important;width:100%;" class="center">
         ☭
     </p>
