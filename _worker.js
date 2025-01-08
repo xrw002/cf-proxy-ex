@@ -618,7 +618,7 @@ const mainPage = `
         <form id="urlForm" onsubmit="redirectToProxy(event)">
             <fieldset>
                 <legend>代理一切</legend>
-                <label for="目标网址">TargetUrl: <input type="text" id="targetUrl" placeholder="输入您要访问的网站..."></label>
+                <label for="targetUrl">目标网址: <input type="text" id="targetUrl" placeholder="输入您要访问的网站..."></label>
                 <button type="submit" id="jumpButton">GO!</button>
             </fieldset>
         </form>
