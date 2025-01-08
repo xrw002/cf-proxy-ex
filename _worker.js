@@ -607,11 +607,6 @@ const mainPage = `
 </head>
 <body>
       <br><br><br>
-      <ul style="font-size:25;">
-      <li class="important">如何使用此代理:<br>
-        在网站网址后输入您要访问的网站: <br>
-        https://the current url/github.com<br>OR<br>https://the current url/https://github.com</li>
-      </ul>
         <form id="urlForm" onsubmit="redirectToProxy(event)">
             <fieldset>
                 <legend>代理一切</legend>
