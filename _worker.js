@@ -611,8 +611,8 @@ const mainPage = `
       </h3>
       <br><br><br>
       <ul style="font-size:25;">
-      <li class="important">How to use this proxy:<br>
-        Type the website you want to go to after the website's url, for example: <br>
+      <li class="important">如何使用此代理:<br>
+        在网站网址后输入您要访问的网站: <br>
         https://the current url/github.com<br>OR<br>https://the current url/https://github.com</li>
       </ul>
         <form id="urlForm" onsubmit="redirectToProxy(event)">
@@ -631,10 +631,10 @@ const mainPage = `
             }
         </script>
       <ul>
-        <li>If your browser show 400 bad request, please clear your browser cookie<br></li>
-        <li>Why I make this:<br> Because school blcok every website that I can find math / CS and other subjects' study material and question solutions. In the eyes of the school, China (and some other countries) seems to be outside the scope of this "world". They block access to server IP addresses in China and block access to Chinese search engines and video websites. Of course, some commonly used social software has also been blocked, which once made it impossible for me to send messages to my parents on campus. I don't think that's how it should be, so I'm going to fight it as hard as I can. I believe this will not only benefit myself, but a lot more people can get benefits.</li>
-       <li>If this website is blocked by your school: <br>Contact me at <a href="mailto:help@lhyang.org">help@lhyang.org</a>, and I will setup a new webpage.</li>
-        <li>Limitation:<br>Although I tried my best to make every website proxiable, there still might be pages or resources that can not be load, and the most important part is that <span class="important">YOU SHOULD NEVER LOGIN ANY ACCOUNT VIA ONLINE PROXY</span>.</li>
+        <li>如果您的浏览器显示400错误请求，请清除您的浏览器cookie<br></li>
+        <li>我为什么这么做:<br> 因为学校封锁了所有我能找到数学/计算机科学和其他学科学习资料和问题解答的网站。在学校眼里，中国（和其他一些国家）似乎不在这个“世界”的范围内。他们封锁了对中国服务器 IP 地址的访问，封锁了对中国搜索引擎和视频网站的访问。当然，一些常用的社交软件也被封锁了，一度让我无法给校园里的父母发信息。我觉得不应该这样，所以我会尽我所能去抗争。我相信这不仅对自己有好处，而且会让更多的人受益。</li>
+       <li>如果您的学校屏蔽了该网站: <br>请通过<a href="mailto:help@lhyang.org">help@lhyang.org</a>, 与我联系，我将设置一个新的网页。</li>
+        <li>限制:<br>尽管我尽力使每个网站均可代理, 但仍然可能有页面或资源无法加载, <span class="important">最重要的是您绝不应该通过在线代理登录任何帐户</span>.</li>
       </ul>
 
     <h3>
